@@ -136,7 +136,7 @@ locate american-english
 pwd
 ```
 
-    /home/faculty/yasiro01/courses/swt-class-pub
+    /home/faculty/yasiro01/courses/swdt-class-pub
 
 
 
@@ -161,12 +161,15 @@ cd ..
 pwd
 ```
 
-    /home/faculty/yasiro01/courses/swt-class-pub
+    /home/faculty/yasiro01/courses/swdt-class-pub
     /
     /home/faculty/yasiro01
-    /home/faculty/yasiro01/courses/swt-class-pub
+    /home/faculty/yasiro01
     /home/faculty/yasiro01
     /home/faculty
+
+
+    bash: line 10: cd: courses/swt-class-pub: No such file or directory
 
 
 
@@ -180,8 +183,10 @@ ls
     library_gen.ipynb
     library.txt
     linux_commands.ipynb
+    linux_commands.md
     passwd_gen.ipynb
     roster.txt
+    sorted_words
 
 
 
@@ -228,11 +233,11 @@ ls /
 ls -l /home/faculty/yasiro01
 ```
 
-    total 280
-    drwxr-xr-x 6 yasiro01 Faculty   4096 Aug 12 15:13 courses
+    total 276
+    drwxr-xr-x 6 yasiro01 Faculty   4096 Sep  8 12:34 courses
     -rw-r--r-- 1 yasiro01 users     8980 Sep 29  2016 examples.desktop
     drwxr-xr-x 3 yasiro01 users     4096 Feb 16  2017 public_html
-    -rw-r--r-- 1 yasiro01 Faculty  10959 Sep  7 15:20 snippets.ipynb
+    -rw-r--r-- 1 yasiro01 Faculty   7509 Sep  8 10:29 snippets.ipynb
     -rw-r--r-- 1 yasiro01 Faculty 215017 Oct 26  2016 SortCompare.ipynb
     -rw-r--r-- 1 yasiro01 Faculty  23124 Feb 16  2017 tao_of_python.ipynb
     -rw-r--r-- 1 yasiro01 Faculty   8520 Nov  3  2016 TreePlotting.ipynb
@@ -245,7 +250,7 @@ ls -l /home/faculty/yasiro01
 ls -l linux_commands.ipynb
 ```
 
-    -rw-r--r-- 1 yasiro01 Faculty 16727 Sep  8 09:33 linux_commands.ipynb
+    -rw-r--r-- 1 yasiro01 Faculty 19671 Sep  8 13:02 linux_commands.ipynb
 
 
 
@@ -266,7 +271,7 @@ touch new_file
 ls -l new_file
 ```
 
-    -rw-r--r-- 1 yasiro01 Faculty 0 Sep  8 09:33 new_file
+    -rw-r--r-- 1 yasiro01 Faculty 0 Sep  8 13:02 new_file
 
 
 
@@ -283,7 +288,7 @@ cat example.txt | wc
 ```
 
     hello world
-    today is Fri Sep 8 09:33:31 CDT 2017
+    today is Fri Sep 8 13:02:35 CDT 2017
           2      10      49
 
 
@@ -296,8 +301,8 @@ cp example.txt another_example.txt
 ls -l *example.txt
 ```
 
-    -rw-r--r-- 1 yasiro01 Faculty 49 Sep  8 09:33 another_example.txt
-    -rw-r--r-- 1 yasiro01 Faculty 49 Sep  8 09:33 example.txt
+    -rw-r--r-- 1 yasiro01 Faculty 49 Sep  8 13:02 another_example.txt
+    -rw-r--r-- 1 yasiro01 Faculty 49 Sep  8 13:02 example.txt
 
 
 
@@ -308,8 +313,8 @@ mv another_example.txt yet_another_example.txt
 ls -l *example.txt
 ```
 
-    -rw-r--r-- 1 yasiro01 Faculty 49 Sep  8 09:33 example.txt
-    -rw-r--r-- 1 yasiro01 Faculty 49 Sep  8 09:33 yet_another_example.txt
+    -rw-r--r-- 1 yasiro01 Faculty 49 Sep  8 13:02 example.txt
+    -rw-r--r-- 1 yasiro01 Faculty 49 Sep  8 13:02 yet_another_example.txt
 
 
 
@@ -320,7 +325,7 @@ rm yet_another_example.txt
 ls -l *example.txt
 ```
 
-    -rw-r--r-- 1 yasiro01 Faculty 49 Sep  8 09:33 example.txt
+    -rw-r--r-- 1 yasiro01 Faculty 49 Sep  8 13:02 example.txt
 
 
 
@@ -336,9 +341,9 @@ chmod 644 example.txt
 ls -l *example.txt
 ```
 
-    -rwxr-xr-x 1 yasiro01 Faculty 49 Sep  8 09:33 example.txt
-    -r-xr-xr-x 1 yasiro01 Faculty 49 Sep  8 09:33 example.txt
-    -rw-r--r-- 1 yasiro01 Faculty 49 Sep  8 09:33 example.txt
+    -rwxr-xr-x 1 yasiro01 Faculty 49 Sep  8 13:02 example.txt
+    -r-xr-xr-x 1 yasiro01 Faculty 49 Sep  8 13:02 example.txt
+    -rw-r--r-- 1 yasiro01 Faculty 49 Sep  8 13:02 example.txt
 
 
 
@@ -391,7 +396,6 @@ who
     millbr02 pts/12       2017-08-30 09:21 (10.24.10.4)
     millbr02 pts/13       2017-08-30 09:44 (10.24.10.4)
     millbr02 pts/14       2017-09-06 09:13 (10.24.10.4)
-    yasiro01 pts/17       2017-09-08 09:18 (10.28.139.39)
     stuckmch pts/18       2017-09-06 15:18 (10.22.2.28)
 
 
@@ -402,14 +406,13 @@ who
 w
 ```
 
-     09:33:31 up 15 days,  2:25,  6 users,  load average: 0.33, 0.22, 0.14
+     13:02:36 up 15 days,  5:54,  5 users,  load average: 1.15, 1.11, 1.04
     USER     TTY      FROM             LOGIN@   IDLE   JCPU   PCPU WHAT
-    millbr02 pts/8    10.24.10.4       Tue14   10:13   0.42s  0.36s ssh apc
-    millbr02 pts/12   10.24.10.4       30Aug17  3days  5:50   3.00s -bash
+    millbr02 pts/8    10.24.10.4       Tue14    3:39m  0.42s  0.36s ssh apc
+    millbr02 pts/12   10.24.10.4       30Aug17  3days  6:13   3.00s -bash
     millbr02 pts/13   10.24.10.4       30Aug17  3days  0.27s  0.21s ssh apc
-    millbr02 pts/14   10.24.10.4       Wed09   23:14m  0.25s  0.08s /usr/lib/postgresql/9.3/bin/psql world
-    yasiro01 pts/17   10.28.139.39     09:18    1:21   0.06s  0.06s -bash
-    stuckmch pts/18   10.22.2.28       Wed15   42:05m  0.29s  0.06s sshd: stuckmch [priv]
+    millbr02 pts/14   10.24.10.4       Wed09   26:43m  0.25s  0.08s /usr/lib/postgresql/9.3/bin/psql world
+    stuckmch pts/18   10.22.2.28       Wed15   45:34m  0.29s  0.06s sshd: stuckmch [priv]
 
 
 
@@ -429,7 +432,7 @@ uname -a
 date
 ```
 
-    Fri Sep  8 09:33:31 CDT 2017
+    Fri Sep  8 13:02:36 CDT 2017
 
 
 
@@ -439,7 +442,7 @@ date
 uptime
 ```
 
-     09:33:31 up 15 days,  2:25,  6 users,  load average: 0.33, 0.22, 0.14
+     13:02:36 up 15 days,  5:54,  5 users,  load average: 1.15, 1.11, 1.04
 
 
 
@@ -474,21 +477,93 @@ echo `whoami`
 
 ```bash
 %%bash
+# Simple bash calculator
+echo 2*2 | bc
+echo 2^3 | bc
+echo 160 / 10 | bc
+```
+
+    4
+    8
+    16
+
+
+
+```bash
+%%bash
+# Pipes and calculations
+ls -l
+echo '---'
+echo `ls -l`
+echo '---'
+echo `ls -l | wc -l`
+echo '---'
+echo `ls -l | wc -l` - 1
+echo '---'
+echo `ls -l | wc -l` - 1 | bc
+```
+
+    total 984
+    -rw-r--r-- 1 yasiro01 Faculty     49 Sep  8 13:02 example.txt
+    -rw-r--r-- 1 yasiro01 Faculty   3017 Sep  7 15:22 fnord.txt
+    -rw-r--r-- 1 yasiro01 Faculty   3340 Mar  2  2017 library_gen.ipynb
+    -rw-r--r-- 1 yasiro01 Faculty  12021 Feb 20  2017 library.txt
+    -rw-r--r-- 1 yasiro01 Faculty  19671 Sep  8 13:02 linux_commands.ipynb
+    -rw-r--r-- 1 yasiro01 Faculty   8386 Sep  8 12:43 linux_commands.md
+    -rw-r--r-- 1 yasiro01 Faculty      0 Sep  8 13:02 new_file
+    -rw-r--r-- 1 yasiro01 Faculty   3943 Aug 12 19:04 passwd_gen.ipynb
+    -rw-r--r-- 1 yasiro01 Faculty    467 Aug 13 20:59 roster.txt
+    -rw-r--r-- 1 yasiro01 Faculty 938848 Sep  8 12:57 sorted_words
+    ---
+    total 984 -rw-r--r-- 1 yasiro01 Faculty 49 Sep 8 13:02 example.txt -rw-r--r-- 1 yasiro01 Faculty 3017 Sep 7 15:22 fnord.txt -rw-r--r-- 1 yasiro01 Faculty 3340 Mar 2 2017 library_gen.ipynb -rw-r--r-- 1 yasiro01 Faculty 12021 Feb 20 2017 library.txt -rw-r--r-- 1 yasiro01 Faculty 19671 Sep 8 13:02 linux_commands.ipynb -rw-r--r-- 1 yasiro01 Faculty 8386 Sep 8 12:43 linux_commands.md -rw-r--r-- 1 yasiro01 Faculty 0 Sep 8 13:02 new_file -rw-r--r-- 1 yasiro01 Faculty 3943 Aug 12 19:04 passwd_gen.ipynb -rw-r--r-- 1 yasiro01 Faculty 467 Aug 13 20:59 roster.txt -rw-r--r-- 1 yasiro01 Faculty 938848 Sep 8 12:57 sorted_words
+    ---
+    11
+    ---
+    11 - 1
+    ---
+    10
+
+
+
+```bash
+%%bash
 # Display number of files in a directory by counting lines and subtracting 1
 echo `ls -l | wc -l` - 1 | bc
 ```
 
-    8
+    10
 
 
 
 ```bash
 %%bash
 sort /usr/share/dict/words > sorted_words
-echo `tr 'A-Z' 'a-z' < fnord.txt | tr -cs 'a-z' '\n' | sort | uniq | comm -23 - sorted_words | wc -l` - 1 | bc
+tr 'A-Z' 'a-z' < fnord.txt | tr -cs 'a-z' '\n' | sort | uniq | comm -23 - sorted_words
 ```
 
-    22
+    
+    alucard
+    american
+    apr
+    binky
+    centere
+    da
+    etc
+    fnord
+    fnords
+    hq
+    inc
+    madison
+    poeple
+    polyspock
+    revultion
+    ror
+    sdbp
+    shawn
+    somthing
+    texbooks
+    tfile
+    ya
 
 
 
