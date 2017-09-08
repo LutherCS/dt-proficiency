@@ -1,0 +1,101 @@
+ISBN           Title                                    Ed  Author(s)                                     Year  Price   
+4170813745280  C++ Fundamentals                          6  Jenny Quicksilver & Gerry Lee                 2010    2.34
+0046847611671  Hacking Web Networks                      1  Charlie O'Reilly & Eve Patterson              2006   58.79
+3329265056651  Computer Security                         5  Charlie Lee                                   1996   85.75
+9509383534792  Advanced Operating Principles             6  Irene Ross & David Kurose                     2011   74.96
+5501598010991  Introduction to Web Fundamentals          1  Irene Lee & Charlie Kurose                    1992   12.92
+7332811454166  Mastering Web Systems                     6  Charlie Miller                                2011   86.73
+7330799107323  Diving into Secure Basics                 2  Irene Lee & David Quicksilver                 2006   45.48
+8924718241696  Understanding Operating Basics            8  David Null                                    1997   16.57
+8692119013285  Diving into Java Basics                   1  Bob Kurose & Harry Null                       2006   58.67
+5111985530638  Advanced Web Fundamentals                 4  Jenny Miller & Bob Tanenbaum                  2006   77.14
+7349958357612  Understanding Database Principles         3  Bob Null                                      2014   43.92
+6003535430378  Hacking Web Principles                    2  Gerry Miller                                  2016   25.76
+8109315938750  Diving into Database Fundamentals         4  Alice Ross                                    2002   27.96
+7145343467964  Python Basics                             4  Bob Silberschatz & Gerry Silberschatz         1996   82.25
+7683406320322  Operating Security                        6  Bob Miller                                    2000   35.27
+3880594861699  Web Problems                              9  Irene Silberschatz                            2002   72.19
+2388580666238  Introduction to Hardware Security         1  Gerry Null & Irene Quicksilver                1993   10.05
+5772874830786  Mastering Java Networks                   7  Bob Ross & Eve Tanenbaum                      2008   29.94
+6930213441871  Introduction to Computer Systems          5  David Silberschatz & Charlie Lee              1991   51.19
+7015347244071  C++ Basics                                5  Gerry Null                                    2017   78.49
+9421692602943  Diving into Python Principles             7  Jenny Quicksilver                             1993   20.76
+9702690779685  Developing Web Concepts                   2  Irene Ross                                    1999   27.34
+9783510001491  Advanced Python Principles                6  Irene Kurose & Irene Quicksilver              2014   18.63
+5380343526369  Secure Principles                         6  Irene Ross & Jenny Null                       2011    0.45
+0618685632391  Web Principles                            4  Jenny Miller & Frank Miller                   2010   71.12
+8822324868762  Advanced Python Fundamentals              3  Alice Null & Charlie Lee                      1997   47.71
+5392843295350  Understanding Web Fundamentals            7  Jenny Patterson                               2001    2.74
+7355308278780  Computer Security                         8  Eve Patterson & Frank Null                    1996   43.67
+4277400656024  Diving into Python Problems               6  Alice Miller                                  1998   18.07
+4857126930223  Mastering Secure Principles               5  Frank Silberschatz                            2005   48.18
+5729148620203  Database Concepts                         9  Frank Quicksilver                             2003   30.69
+2073830796437  Hacking Python Security                   3  Harry Miller & Harry Silberschatz             1995   18.49
+7762573149858  Operating Problems                        6  Irene Kurose & Charlie Ross                   2006   56.16
+6041057457523  Advanced Python Problems                  9  Charlie Silberschatz                          2007   64.11
+6870408301910  Understanding Secure Systems              3  Eve Null & Eve Quicksilver                    2007   35.38
+0722159701740  Hardware Principles                       3  Charlie Tanenbaum & Irene Ross                2002    8.97
+0814276606079  Computer Security                         6  Alice Patterson                               2017   78.89
+1770685096493  C++ Systems                               6  Irene O'Reilly & Harry Silberschatz           2017   33.52
+5354101586573  Developing Secure Networks                6  Jenny O'Reilly                                2012   95.08
+8136871105911  Java Principles                           3  Frank Patterson & Eve Kurose                  1998   67.37
+4001129317713  Secure Systems                            8  Harry Miller                                  2016   93.01
+1624298664883  Advanced Computer Problems                1  Frank Ross & Eve Quicksilver                  2005   96.51
+0438429100658  Python Problems                           4  Bob Tanenbaum                                 2004   10.62
+0411174660002  Diving into Operating Fundamentals        8  Bob Patterson                                 1991   23.78
+1260566594133  Python Concepts                           3  Bob Lee                                       2017   61.80
+8560494726901  Computer Systems                          3  Charlie Kurose & Charlie Lee                  2009   27.80
+5372762174930  Operating Systems                         5  Charlie O'Reilly & Jenny Quicksilver          1995   96.56
+6831190526472  Hacking C++ Systems                       2  Alice Patterson & David Null                  2016   41.47
+1481337380542  C++ Basics                                6  Eve Lee                                       1997    6.77
+1987874874932  Understanding Game Concepts               3  Frank Miller & Harry Quicksilver              2001   38.59
+6393093087032  Advanced Web Concepts                     6  Charlie O'Reilly                              2006   17.43
+4964533518201  Understanding Hardware Basics             1  David Miller                                  2008   59.02
+8099505175307  Advanced Hardware Fundamentals            4  Bob Null & Eve Kurose                         1990    4.80
+6676590813001  Hacking Operating Principles              7  Eve Miller & Frank Silberschatz               2014   51.02
+0198733297369  Hacking Database Security                 2  Bob Miller & Bob Miller                       2017   70.40
+1818519981177  Hardware Security                         2  Frank Miller & Alice Kurose                   2004   64.86
+1121277051899  Diving into Python Security               2  Alice Null & Jenny Kurose                     2016   85.86
+8212716107661  Operating Concepts                        1  Eve Lee                                       2003   91.19
+9936395505990  Database Basics                           4  Harry Patterson & Alice Ross                  2000   94.39
+7420451484909  Understanding Game Basics                 8  Alice Lee                                     2004   90.20
+5202028960580  Mastering C++ Problems                    1  Charlie Null                                  1996   77.94
+4843546700468  Java Fundamentals                         5  Gerry Kurose                                  2017   55.73
+6756763156170  Secure Security                           6  David Tanenbaum                               2014   78.99
+9825193117029  Game Concepts                             4  Charlie Miller & Jenny Silberschatz           2010   27.10
+6317948290189  Mastering C++ Concepts                    1  Alice Patterson & Eve Lee                     1999   35.37
+4140451078429  Understanding Java Principles             9  Charlie Ross                                  2000   54.37
+2442335938380  Web Systems                               8  Irene Patterson & Gerry Null                  2000   92.92
+4927859584314  Computer Problems                         8  Charlie O'Reilly & Charlie Tanenbaum          2006   12.81
+3620832787563  Secure Fundamentals                       2  David Lee                                     2017    8.71
+4656930989289  Diving into Game Systems                  5  Irene Null & Eve Kurose                       2011   61.77
+9126986785443  Computer Problems                         1  Bob Null & Irene Silberschatz                 1993   81.35
+1266356144287  Mastering Database Problems               1  Bob Patterson & Gerry Silberschatz            2017   34.62
+3110760941735  Database Concepts                         6  Alice Quicksilver & Alice Quicksilver         1991   81.26
+9731400594385  Advanced Python Problems                  6  Harry Quicksilver                             2005   69.20
+4037454033193  C++ Basics                                5  Frank Null & Gerry O'Reilly                   1990   59.63
+7880288763826  Database Fundamentals                     8  David Kurose                                  1999   48.88
+8313071488733  Understanding Operating Problems          3  Harry Ross                                    2017   87.46
+4456828246636  Introduction to Operating Problems        6  David Quicksilver                             2009   44.57
+2432825517386  Developing Web Fundamentals               8  Eve Quicksilver & Gerry Patterson             1996   80.78
+0373789773724  Computer Basics                           6  Frank Null                                    1993   77.37
+4673576098502  Game Problems                             1  Eve Ross                                      1995   40.29
+9322077370934  Understanding Database Fundamentals       7  Alice Tanenbaum                               2000   37.34
+2648117431167  Java Principles                           6  Irene Silberschatz                            2016   54.87
+7561306126436  Mastering Operating Security              2  Harry O'Reilly                                2000   33.55
+7808629491445  Understanding Game Fundamentals           1  David Patterson                               1996   62.01
+5184484634380  Secure Problems                           5  Gerry Tanenbaum                               1997   91.52
+4388029361893  Diving into C++ Basics                    3  Harry Miller                                  2013   63.17
+7518230867347  Web Principles                            3  Frank Tanenbaum                               2008    0.09
+2044089886141  Developing Game Networks                  5  Jenny Patterson                               1997   76.18
+5084616429928  Understanding Operating Basics            7  Irene Quicksilver & Gerry O'Reilly            2000   52.64
+6385178451839  Web Security                              4  Harry Ross & Alice O'Reilly                   2009   57.23
+9536744502951  Hacking Java Systems                      8  Frank Tanenbaum                               2015   73.35
+1951898634736  Introduction to Operating Problems        2  Charlie Null                                  2009   34.36
+8022107566703  Introduction to Hardware Principles       7  Frank O'Reilly & Harry Silberschatz           2009   46.38
+6699510189829  Mastering Web Systems                     7  Eve Lee                                       1997   11.47
+2674457872939  Understanding Java Fundamentals           6  Harry Ross & Frank Ross                       1999   45.50
+2180579212990  Advanced Web Systems                      1  Gerry Quicksilver & Alice Miller              2017   99.46
+8599031938216  Mastering Hardware Concepts               4  Gerry Miller & Harry Patterson                2015   65.40
+3841583323237  Python Problems                           8  Alice Kurose & Gerry Patterson                2012   21.23
+7481187955252  Database Fundamentals                     5  Bob Lee & Charlie Miller                      1997   51.14
