@@ -1,0 +1,331 @@
+PHP Warning:  PHP Startup: Unable to load dynamic library 'ext\\php_curl.dll' - The specified module could not be found.\r\n in Unknown on line 0
+[Sat Feb 13 21:53:33.085187 2016] [mpm_winnt:notice] [pid 3312:tid 708] AH00455: Apache/2.4.18 (Win64) PHP/5.6.17 configured -- resuming normal operations
+[Sat Feb 13 21:53:33.085187 2016] [mpm_winnt:notice] [pid 3312:tid 708] AH00456: Apache Lounge VC14 Server built: Dec  9 2015 11:13:29
+[Sat Feb 13 21:53:33.085187 2016] [core:notice] [pid 3312:tid 708] AH00094: Command line: 'D:\\Program_Files\\Apache24\\bin\\httpd.exe -d D:/Program_Files/Apache24'
+[Sat Feb 13 21:53:33.085187 2016] [mpm_winnt:notice] [pid 3312:tid 708] AH00418: Parent: Created child process 196
+PHP Warning:  PHP Startup: Unable to load dynamic library 'ext\\php_curl.dll' - The specified module could not be found.\r\n in Unknown on line 0
+[Sat Feb 13 21:53:33.575188 2016] [mpm_winnt:notice] [pid 196:tid 624] AH00354: Child: Starting 64 worker threads.
+[Sun Feb 14 08:17:48.304059 2016] [mpm_winnt:notice] [pid 3312:tid 708] AH00424: Parent: Received restart signal -- Restarting the server.
+PHP Warning:  PHP Startup: Unable to load dynamic library 'ext/php_curl.dll' - The specified module could not be found.\r\n in Unknown on line 0
+[Sun Feb 14 08:17:48.404059 2016] [mpm_winnt:notice] [pid 3312:tid 708] AH00455: Apache/2.4.18 (Win64) PHP/5.6.17 configured -- resuming normal operations
+[Sun Feb 14 08:17:48.404059 2016] [mpm_winnt:notice] [pid 3312:tid 708] AH00456: Apache Lounge VC14 Server built: Dec  9 2015 11:13:29
+[Sun Feb 14 08:17:48.404059 2016] [core:notice] [pid 3312:tid 708] AH00094: Command line: 'D:\\Program_Files\\Apache24\\bin\\httpd.exe -d D:/Program_Files/Apache24'
+[Sun Feb 14 08:17:48.414059 2016] [mpm_winnt:notice] [pid 3312:tid 708] AH00418: Parent: Created child process 5472
+PHP Warning:  PHP Startup: Unable to load dynamic library 'ext/php_curl.dll' - The specified module could not be found.\r\n in Unknown on line 0
+[Sun Feb 14 08:17:49.304060 2016] [mpm_winnt:notice] [pid 5472:tid 624] AH00354: Child: Starting 64 worker threads.
+[Sun Feb 14 08:17:50.304061 2016] [mpm_winnt:notice] [pid 196:tid 624] AH00364: Child: All worker threads have exited.
+[Sun Feb 14 08:17:56.044069 2016] [:error] [pid 5472:tid 1192] [client 127.0.0.1:51456] PHP Fatal error:  Uncaught exception 'OpenIDConnectClientException' with message 'OpenIDConnect needs the CURL PHP extension.' in D:\\Program_Files\\Apache24\\htdocs\\openid\\OpenIDConnectClient.php:82\nStack trace:\n#0 D:\\Program_Files\\Apache24\\htdocs\\openid\\donatih55_Client.php(23): require()\n#1 {main}\n  thrown in D:\\Program_Files\\Apache24\\htdocs\\openid\\OpenIDConnectClient.php on line 82, referer: http://localhost/openid/index.php
+[Sun Feb 14 08:18:00.294075 2016] [:error] [pid 5472:tid 1192] [client 127.0.0.1:51456] PHP Fatal error:  Uncaught exception 'OpenIDConnectClientException' with message 'OpenIDConnect needs the CURL PHP extension.' in D:\\Program_Files\\Apache24\\htdocs\\openid\\OpenIDConnectClient.php:82\nStack trace:\n#0 D:\\Program_Files\\Apache24\\htdocs\\openid\\donatih55_Client.php(23): require()\n#1 {main}\n  thrown in D:\\Program_Files\\Apache24\\htdocs\\openid\\OpenIDConnectClient.php on line 82, referer: http://localhost/openid/index.php
+[Sun Feb 14 08:18:45.884138 2016] [:error] [pid 5472:tid 1192] [client 127.0.0.1:51457] PHP Fatal error:  Uncaught exception 'OpenIDConnectClientException' with message 'OpenIDConnect needs the CURL PHP extension.' in D:\\Program_Files\\Apache24\\htdocs\\openid\\OpenIDConnectClient.php:82\nStack trace:\n#0 D:\\Program_Files\\Apache24\\htdocs\\openid\\donatih55_Client.php(23): require()\n#1 {main}\n  thrown in D:\\Program_Files\\Apache24\\htdocs\\openid\\OpenIDConnectClient.php on line 82, referer: http://localhost/openid/index.php
+[Sun Feb 14 08:44:05.939945 2016] [:error] [pid 5472:tid 1192] [client 127.0.0.1:51798] PHP Fatal error:  Uncaught exception 'OpenIDConnectClientException' with message 'OpenIDConnect needs the CURL PHP extension.' in D:\\Program_Files\\Apache24\\htdocs\\openid\\OpenIDConnectClient.php:82\nStack trace:\n#0 D:\\Program_Files\\Apache24\\htdocs\\openid\\donatih55_Client.php(23): require()\n#1 {main}\n  thrown in D:\\Program_Files\\Apache24\\htdocs\\openid\\OpenIDConnectClient.php on line 82
+[Sun Feb 14 08:44:16.719960 2016] [:error] [pid 5472:tid 1192] [client 127.0.0.1:51800] PHP Warning:  include(Crypt/RSA.php): failed to open stream: No such file or directory in D:\\Program_Files\\Apache24\\htdocs\\autoload.php on line 2, referer: http://localhost/project.html
+[Sun Feb 14 08:44:16.719960 2016] [:error] [pid 5472:tid 1192] [client 127.0.0.1:51800] PHP Warning:  include(): Failed opening 'Crypt/RSA.php' for inclusion (include_path='.;C:\\php\\pear') in D:\\Program_Files\\Apache24\\htdocs\\autoload.php on line 2, referer: http://localhost/project.html
+[Sun Feb 14 08:44:16.729960 2016] [:error] [pid 5472:tid 1192] [client 127.0.0.1:51800] PHP Notice:  Unable to find phpseclib Crypt/RSA.php.  Ensure phpseclib is installed and in include_path in D:\\Program_Files\\Apache24\\htdocs\\autoload.php on line 42, referer: http://localhost/project.html
+[Sun Feb 14 08:44:16.729960 2016] [:error] [pid 5472:tid 1192] [client 127.0.0.1:51800] PHP Fatal error:  Uncaught exception 'OpenIDConnectClientException' with message 'OpenIDConnect needs the CURL PHP extension.' in D:\\Program_Files\\Apache24\\htdocs\\autoload.php:82\nStack trace:\n#0 D:\\Program_Files\\Apache24\\htdocs\\project.php(2): require()\n#1 {main}\n  thrown in D:\\Program_Files\\Apache24\\htdocs\\autoload.php on line 82, referer: http://localhost/project.html
+[Sun Feb 14 08:44:40.842277 2016] [:error] [pid 5472:tid 1192] [client 127.0.0.1:51801] PHP Fatal error:  Uncaught exception 'OpenIDConnectClientException' with message 'OpenIDConnect needs the CURL PHP extension.' in D:\\Program_Files\\Apache24\\htdocs\\autoload.php:82\nStack trace:\n#0 D:\\Program_Files\\Apache24\\htdocs\\project.php(2): require()\n#1 {main}\n  thrown in D:\\Program_Files\\Apache24\\htdocs\\autoload.php on line 82, referer: http://localhost/project.html
+[Sun Feb 14 08:45:39.098366 2016] [:error] [pid 5472:tid 1192] [client 127.0.0.1:51804] PHP Fatal error:  Uncaught exception 'OpenIDConnectClientException' with message 'OpenIDConnect needs the CURL PHP extension.' in D:\\Program_Files\\Apache24\\htdocs\\autoload.php:82\nStack trace:\n#0 D:\\Program_Files\\Apache24\\htdocs\\project.php(2): require()\n#1 {main}\n  thrown in D:\\Program_Files\\Apache24\\htdocs\\autoload.php on line 82, referer: http://localhost/project.html
+[Sun Feb 14 08:45:50.598382 2016] [mpm_winnt:notice] [pid 3312:tid 708] AH00424: Parent: Received restart signal -- Restarting the server.
+PHP Warning:  PHP Startup: Unable to load dynamic library 'ext/php_curl.dll' - The specified module could not be found.\r\n in Unknown on line 0
+[Sun Feb 14 08:45:50.678382 2016] [mpm_winnt:notice] [pid 3312:tid 708] AH00455: Apache/2.4.18 (Win64) PHP/5.6.17 configured -- resuming normal operations
+[Sun Feb 14 08:45:50.678382 2016] [mpm_winnt:notice] [pid 3312:tid 708] AH00456: Apache Lounge VC14 Server built: Dec  9 2015 11:13:29
+[Sun Feb 14 08:45:50.678382 2016] [core:notice] [pid 3312:tid 708] AH00094: Command line: 'D:\\Program_Files\\Apache24\\bin\\httpd.exe -d D:/Program_Files/Apache24'
+[Sun Feb 14 08:45:50.988382 2016] [mpm_winnt:notice] [pid 3312:tid 708] AH00418: Parent: Created child process 1268
+PHP Warning:  PHP Startup: Unable to load dynamic library 'ext/php_curl.dll' - The specified module could not be found.\r\n in Unknown on line 0
+[Sun Feb 14 08:45:51.598383 2016] [mpm_winnt:notice] [pid 1268:tid 628] AH00354: Child: Starting 64 worker threads.
+[Sun Feb 14 08:45:52.598385 2016] [mpm_winnt:notice] [pid 5472:tid 624] AH00364: Child: All worker threads have exited.
+[Sun Feb 14 08:46:06.090406 2016] [:error] [pid 1268:tid 1192] [client 127.0.0.1:51805] PHP Fatal error:  Uncaught exception 'OpenIDConnectClientException' with message 'OpenIDConnect needs the CURL PHP extension.' in D:\\Program_Files\\Apache24\\htdocs\\autoload.php:82\nStack trace:\n#0 D:\\Program_Files\\Apache24\\htdocs\\project.php(2): require()\n#1 {main}\n  thrown in D:\\Program_Files\\Apache24\\htdocs\\autoload.php on line 82, referer: http://localhost/project.html
+[Sun Feb 14 08:54:17.876732 2016] [:error] [pid 1268:tid 1192] [client 127.0.0.1:52022] PHP Fatal error:  Uncaught exception 'OpenIDConnectClientException' with message 'OpenIDConnect needs the CURL PHP extension.' in D:\\Program_Files\\Apache24\\htdocs\\openid\\OpenIDConnectClient.php:82\nStack trace:\n#0 D:\\Program_Files\\Apache24\\htdocs\\openid\\donatih55_Client.php(23): require()\n#1 {main}\n  thrown in D:\\Program_Files\\Apache24\\htdocs\\openid\\OpenIDConnectClient.php on line 82, referer: http://localhost/openid/index.php
+[Sun Feb 14 08:54:26.156744 2016] [:error] [pid 1268:tid 1192] [client 127.0.0.1:52023] PHP Warning:  phpinfo(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected the timezone 'UTC' for now, but please set date.timezone to select your timezone. in D:\\Program_Files\\Apache24\\htdocs\\openid\\donatih55_Client.php on line 23, referer: http://localhost/openid/index.php
+[Sun Feb 14 08:54:26.216744 2016] [:error] [pid 1268:tid 1192] [client 127.0.0.1:52023] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at D:\\Program_Files\\Apache24\\htdocs\\openid\\donatih55_Client.php:23) in D:\\Program_Files\\Apache24\\htdocs\\openid\\OpenIDConnectClient.php on line 29, referer: http://localhost/openid/index.php
+[Sun Feb 14 08:54:26.216744 2016] [:error] [pid 1268:tid 1192] [client 127.0.0.1:52023] PHP Fatal error:  Uncaught exception 'OpenIDConnectClientException' with message 'OpenIDConnect needs the CURL PHP extension.' in D:\\Program_Files\\Apache24\\htdocs\\openid\\OpenIDConnectClient.php:82\nStack trace:\n#0 D:\\Program_Files\\Apache24\\htdocs\\openid\\donatih55_Client.php(24): require()\n#1 {main}\n  thrown in D:\\Program_Files\\Apache24\\htdocs\\openid\\OpenIDConnectClient.php on line 82, referer: http://localhost/openid/index.php
+[Sun Feb 14 08:56:40.796930 2016] [:error] [pid 1268:tid 1192] [client 127.0.0.1:52030] PHP Warning:  phpinfo(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected the timezone 'UTC' for now, but please set date.timezone to select your timezone. in D:\\Program_Files\\Apache24\\htdocs\\openid\\donatih55_Client.php on line 23, referer: http://localhost/openid/index.php
+[Sun Feb 14 08:56:40.806930 2016] [:error] [pid 1268:tid 1192] [client 127.0.0.1:52030] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at D:\\Program_Files\\Apache24\\htdocs\\openid\\donatih55_Client.php:23) in D:\\Program_Files\\Apache24\\htdocs\\openid\\OpenIDConnectClient.php on line 29, referer: http://localhost/openid/index.php
+[Sun Feb 14 08:56:40.806930 2016] [:error] [pid 1268:tid 1192] [client 127.0.0.1:52030] PHP Fatal error:  Uncaught exception 'OpenIDConnectClientException' with message 'OpenIDConnect needs the CURL PHP extension.' in D:\\Program_Files\\Apache24\\htdocs\\openid\\OpenIDConnectClient.php:82\nStack trace:\n#0 D:\\Program_Files\\Apache24\\htdocs\\openid\\donatih55_Client.php(24): require()\n#1 {main}\n  thrown in D:\\Program_Files\\Apache24\\htdocs\\openid\\OpenIDConnectClient.php on line 82, referer: http://localhost/openid/index.php
+[Sun Feb 14 09:04:13.701841 2016] [mpm_winnt:notice] [pid 3312:tid 708] AH00424: Parent: Received restart signal -- Restarting the server.
+PHP Warning:  PHP Startup: Unable to load dynamic library 'ext/php_curl.dll' - The specified module could not be found.\r\n in Unknown on line 0
+[Sun Feb 14 09:04:13.831841 2016] [mpm_winnt:notice] [pid 3312:tid 708] AH00455: Apache/2.4.18 (Win64) PHP/5.6.17 configured -- resuming normal operations
+[Sun Feb 14 09:04:13.831841 2016] [mpm_winnt:notice] [pid 3312:tid 708] AH00456: Apache Lounge VC14 Server built: Dec  9 2015 11:13:29
+[Sun Feb 14 09:04:13.831841 2016] [core:notice] [pid 3312:tid 708] AH00094: Command line: 'D:\\Program_Files\\Apache24\\bin\\httpd.exe -d D:/Program_Files/Apache24'
+[Sun Feb 14 09:04:14.121841 2016] [mpm_winnt:notice] [pid 3312:tid 708] AH00418: Parent: Created child process 7444
+PHP Warning:  PHP Startup: Unable to load dynamic library 'ext/php_curl.dll' - The specified module could not be found.\r\n in Unknown on line 0
+[Sun Feb 14 09:04:14.701842 2016] [mpm_winnt:notice] [pid 7444:tid 628] AH00354: Child: Starting 64 worker threads.
+[Sun Feb 14 09:04:15.701843 2016] [mpm_winnt:notice] [pid 1268:tid 628] AH00364: Child: All worker threads have exited.
+[Sun Feb 14 09:04:23.851855 2016] [mpm_winnt:notice] [pid 3312:tid 708] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Sun Feb 14 09:04:25.851857 2016] [mpm_winnt:notice] [pid 7444:tid 628] AH00364: Child: All worker threads have exited.
+[Sun Feb 14 09:04:25.961857 2016] [mpm_winnt:notice] [pid 3312:tid 708] AH00430: Parent: Child process 7444 exited successfully.
+PHP Warning:  PHP Startup: Unable to load dynamic library 'ext/php_curl.dll' - The specified module could not be found.\r\n in Unknown on line 0
+[Sun Feb 14 09:04:29.481862 2016] [mpm_winnt:notice] [pid 9076:tid 708] AH00455: Apache/2.4.18 (Win64) PHP/5.6.17 configured -- resuming normal operations
+[Sun Feb 14 09:04:29.481862 2016] [mpm_winnt:notice] [pid 9076:tid 708] AH00456: Apache Lounge VC14 Server built: Dec  9 2015 11:13:29
+[Sun Feb 14 09:04:29.481862 2016] [core:notice] [pid 9076:tid 708] AH00094: Command line: 'D:\\Program_Files\\Apache24\\bin\\httpd.exe -d D:/Program_Files/Apache24'
+[Sun Feb 14 09:04:29.481862 2016] [mpm_winnt:notice] [pid 9076:tid 708] AH00418: Parent: Created child process 9080
+PHP Warning:  PHP Startup: Unable to load dynamic library 'ext/php_curl.dll' - The specified module could not be found.\r\n in Unknown on line 0
+[Sun Feb 14 09:04:29.981863 2016] [mpm_winnt:notice] [pid 9080:tid 624] AH00354: Child: Starting 64 worker threads.
+[Sun Feb 14 09:04:36.691872 2016] [:error] [pid 9080:tid 1156] [client 127.0.0.1:52089] PHP Warning:  phpinfo(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected the timezone 'UTC' for now, but please set date.timezone to select your timezone. in D:\\Program_Files\\Apache24\\htdocs\\openid\\donatih55_Client.php on line 23, referer: http://localhost/openid/index.php
+[Sun Feb 14 09:04:36.711872 2016] [:error] [pid 9080:tid 1156] [client 127.0.0.1:52089] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at D:\\Program_Files\\Apache24\\htdocs\\openid\\donatih55_Client.php:23) in D:\\Program_Files\\Apache24\\htdocs\\openid\\OpenIDConnectClient.php on line 29, referer: http://localhost/openid/index.php
+[Sun Feb 14 09:04:36.711872 2016] [:error] [pid 9080:tid 1156] [client 127.0.0.1:52089] PHP Fatal error:  Uncaught exception 'OpenIDConnectClientException' with message 'OpenIDConnect needs the CURL PHP extension.' in D:\\Program_Files\\Apache24\\htdocs\\openid\\OpenIDConnectClient.php:82\nStack trace:\n#0 D:\\Program_Files\\Apache24\\htdocs\\openid\\donatih55_Client.php(24): require()\n#1 {main}\n  thrown in D:\\Program_Files\\Apache24\\htdocs\\openid\\OpenIDConnectClient.php on line 82, referer: http://localhost/openid/index.php
+[Sun Feb 14 09:04:41.771879 2016] [:error] [pid 9080:tid 1156] [client 127.0.0.1:52091] PHP Warning:  phpinfo(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected the timezone 'UTC' for now, but please set date.timezone to select your timezone. in D:\\Program_Files\\Apache24\\htdocs\\openid\\donatih55_Client.php on line 23
+[Sun Feb 14 09:04:41.781879 2016] [:error] [pid 9080:tid 1156] [client 127.0.0.1:52091] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at D:\\Program_Files\\Apache24\\htdocs\\openid\\donatih55_Client.php:23) in D:\\Program_Files\\Apache24\\htdocs\\openid\\OpenIDConnectClient.php on line 29
+[Sun Feb 14 09:04:41.781879 2016] [:error] [pid 9080:tid 1156] [client 127.0.0.1:52091] PHP Fatal error:  Uncaught exception 'OpenIDConnectClientException' with message 'OpenIDConnect needs the CURL PHP extension.' in D:\\Program_Files\\Apache24\\htdocs\\openid\\OpenIDConnectClient.php:82\nStack trace:\n#0 D:\\Program_Files\\Apache24\\htdocs\\openid\\donatih55_Client.php(24): require()\n#1 {main}\n  thrown in D:\\Program_Files\\Apache24\\htdocs\\openid\\OpenIDConnectClient.php on line 82
+[Sun Feb 14 09:07:32.892115 2016] [mpm_winnt:notice] [pid 9076:tid 708] AH00424: Parent: Received restart signal -- Restarting the server.
+PHP Warning:  PHP Startup: Unable to load dynamic library 'd:/Program_Files/php/ext/php_curl.dll' - The specified module could not be found.\r\n in Unknown on line 0
+[Sun Feb 14 09:07:33.032116 2016] [mpm_winnt:notice] [pid 9076:tid 708] AH00455: Apache/2.4.18 (Win64) PHP/5.6.17 configured -- resuming normal operations
+[Sun Feb 14 09:07:33.032116 2016] [mpm_winnt:notice] [pid 9076:tid 708] AH00456: Apache Lounge VC14 Server built: Dec  9 2015 11:13:29
+[Sun Feb 14 09:07:33.032116 2016] [core:notice] [pid 9076:tid 708] AH00094: Command line: 'D:\\Program_Files\\Apache24\\bin\\httpd.exe -d D:/Program_Files/Apache24'
+[Sun Feb 14 09:07:33.042116 2016] [mpm_winnt:notice] [pid 9076:tid 708] AH00418: Parent: Created child process 7532
+PHP Warning:  PHP Startup: Unable to load dynamic library 'd:/Program_Files/php/ext/php_curl.dll' - The specified module could not be found.\r\n in Unknown on line 0
+[Sun Feb 14 09:07:33.892117 2016] [mpm_winnt:notice] [pid 7532:tid 624] AH00354: Child: Starting 64 worker threads.
+[Sun Feb 14 09:07:34.892118 2016] [mpm_winnt:notice] [pid 9080:tid 624] AH00364: Child: All worker threads have exited.
+[Sun Feb 14 09:07:42.432129 2016] [:error] [pid 7532:tid 1192] [client 127.0.0.1:52095] PHP Warning:  phpinfo(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected the timezone 'UTC' for now, but please set date.timezone to select your timezone. in D:\\Program_Files\\Apache24\\htdocs\\openid\\donatih55_Client.php on line 23
+[Sun Feb 14 09:07:42.462129 2016] [:error] [pid 7532:tid 1192] [client 127.0.0.1:52095] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at D:\\Program_Files\\Apache24\\htdocs\\openid\\donatih55_Client.php:23) in D:\\Program_Files\\Apache24\\htdocs\\openid\\OpenIDConnectClient.php on line 29
+[Sun Feb 14 09:07:42.462129 2016] [:error] [pid 7532:tid 1192] [client 127.0.0.1:52095] PHP Fatal error:  Uncaught exception 'OpenIDConnectClientException' with message 'OpenIDConnect needs the CURL PHP extension.' in D:\\Program_Files\\Apache24\\htdocs\\openid\\OpenIDConnectClient.php:82\nStack trace:\n#0 D:\\Program_Files\\Apache24\\htdocs\\openid\\donatih55_Client.php(24): require()\n#1 {main}\n  thrown in D:\\Program_Files\\Apache24\\htdocs\\openid\\OpenIDConnectClient.php on line 82
+[Sun Feb 14 09:08:14.432173 2016] [:error] [pid 7532:tid 1192] [client 127.0.0.1:52098] PHP Fatal error:  Uncaught exception 'OpenIDConnectClientException' with message 'OpenIDConnect needs the CURL PHP extension.' in D:\\Program_Files\\Apache24\\htdocs\\openid\\OpenIDConnectClient.php:82\nStack trace:\n#0 D:\\Program_Files\\Apache24\\htdocs\\openid\\donatih55_Client.php(23): require()\n#1 {main}\n  thrown in D:\\Program_Files\\Apache24\\htdocs\\openid\\OpenIDConnectClient.php on line 82
+[Sun Feb 14 09:08:20.382181 2016] [:error] [pid 7532:tid 1192] [client 127.0.0.1:52101] PHP Warning:  phpinfo(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected the timezone 'UTC' for now, but please set date.timezone to select your timezone. in D:\\Program_Files\\Apache24\\htdocs\\openid\\donatih55_Client.php on line 23
+[Sun Feb 14 09:08:20.392181 2016] [:error] [pid 7532:tid 1192] [client 127.0.0.1:52101] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at D:\\Program_Files\\Apache24\\htdocs\\openid\\donatih55_Client.php:23) in D:\\Program_Files\\Apache24\\htdocs\\openid\\OpenIDConnectClient.php on line 29
+[Sun Feb 14 09:08:20.392181 2016] [:error] [pid 7532:tid 1192] [client 127.0.0.1:52101] PHP Fatal error:  Uncaught exception 'OpenIDConnectClientException' with message 'OpenIDConnect needs the CURL PHP extension.' in D:\\Program_Files\\Apache24\\htdocs\\openid\\OpenIDConnectClient.php:82\nStack trace:\n#0 D:\\Program_Files\\Apache24\\htdocs\\openid\\donatih55_Client.php(24): require()\n#1 {main}\n  thrown in D:\\Program_Files\\Apache24\\htdocs\\openid\\OpenIDConnectClient.php on line 82
+[Sun Feb 14 09:10:36.732369 2016] [:error] [pid 7532:tid 1192] [client 127.0.0.1:52127] PHP Warning:  phpinfo(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected the timezone 'UTC' for now, but please set date.timezone to select your timezone. in D:\\Program_Files\\Apache24\\htdocs\\index.php on line 2
+[Sun Feb 14 09:14:18.407572 2016] [mpm_winnt:notice] [pid 9076:tid 708] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Sun Feb 14 09:14:20.409687 2016] [mpm_winnt:notice] [pid 7532:tid 624] AH00364: Child: All worker threads have exited.
+[Sun Feb 14 09:14:20.508692 2016] [mpm_winnt:notice] [pid 9076:tid 708] AH00430: Parent: Child process 7532 exited successfully.
+[Sun Feb 14 09:31:08.221146 2016] [mpm_winnt:notice] [pid 2172:tid 712] AH00455: Apache/2.4.18 (Win64) PHP/5.6.17 configured -- resuming normal operations
+[Sun Feb 14 09:31:08.221146 2016] [mpm_winnt:notice] [pid 2172:tid 712] AH00456: Apache Lounge VC14 Server built: Dec  9 2015 11:13:29
+[Sun Feb 14 09:31:08.221146 2016] [core:notice] [pid 2172:tid 712] AH00094: Command line: 'D:\\Program_Files\\Apache24\\bin\\httpd.exe -d D:/Program_Files/Apache24'
+[Sun Feb 14 09:31:08.231146 2016] [mpm_winnt:notice] [pid 2172:tid 712] AH00418: Parent: Created child process 7688
+[Sun Feb 14 09:31:08.731146 2016] [mpm_winnt:notice] [pid 7688:tid 604] AH00354: Child: Starting 64 worker threads.
+[Sun Feb 14 09:44:46.912319 2016] [:error] [pid 7688:tid 1132] [client 127.0.0.1:52697] PHP Fatal error:  Uncaught exception 'OpenIDConnectClientException' with message 'Error: access_denied Description: User denied access' in D:\\Program_Files\\Apache24\\htdocs\\openid\\OpenIDConnectClient.php:179\nStack trace:\n#0 D:\\Program_Files\\Apache24\\htdocs\\openid\\donatih55_Client.php(30): OpenIDConnectClient->authenticate()\n#1 {main}\n  thrown in D:\\Program_Files\\Apache24\\htdocs\\openid\\OpenIDConnectClient.php on line 179
+[Sun Feb 14 09:59:03.264442 2016] [:error] [pid 7688:tid 1132] [client 127.0.0.1:52943] PHP Notice:  Undefined index: login in D:\\Program_Files\\Apache24\\htdocs\\index.php on line 79
+[Sun Feb 14 09:59:03.264442 2016] [:error] [pid 7688:tid 1132] [client 127.0.0.1:52943] PHP Notice:  Undefined index: logout in D:\\Program_Files\\Apache24\\htdocs\\index.php on line 104
+[Sun Feb 14 09:59:10.780872 2016] [:error] [pid 7688:tid 1132] [client 127.0.0.1:52946] PHP Notice:  A session had already been started - ignoring session_start() in D:\\Program_Files\\Apache24\\htdocs\\autoload.php on line 3, referer: http://localhost/index.php
+[Sun Feb 14 10:05:03.728908 2016] [:error] [pid 7688:tid 1132] [client 127.0.0.1:53128] PHP Fatal error:  Uncaught exception 'OpenIDConnectClientException' with message 'Error: access_denied Description: User denied access' in D:\\Program_Files\\Apache24\\htdocs\\OpenIDConnectClient.php:154\nStack trace:\n#0 D:\\Program_Files\\Apache24\\htdocs\\OpenIDTest.php(6): OpenIDConnectClient->authenticate()\n#1 {main}\n  thrown in D:\\Program_Files\\Apache24\\htdocs\\OpenIDConnectClient.php on line 154
+[Sun Feb 14 10:07:09.186577 2016] [:error] [pid 7688:tid 1132] [client 127.0.0.1:53149] PHP Warning:  include(Crypt/RSA.php): failed to open stream: No such file or directory in D:\\Program_Files\\Apache24\\htdocs\\OpenIDConnectClient.php on line 2
+[Sun Feb 14 10:07:09.186577 2016] [:error] [pid 7688:tid 1132] [client 127.0.0.1:53149] PHP Warning:  include(): Failed opening 'Crypt/RSA.php' for inclusion (include_path='.;C:\\php\\pear') in D:\\Program_Files\\Apache24\\htdocs\\OpenIDConnectClient.php on line 2
+[Sun Feb 14 10:07:09.196577 2016] [:error] [pid 7688:tid 1132] [client 127.0.0.1:53149] PHP Notice:  Unable to find phpseclib Crypt/RSA.php.  Ensure phpseclib is installed and in include_path in D:\\Program_Files\\Apache24\\htdocs\\OpenIDConnectClient.php on line 41
+[Sun Feb 14 10:07:20.915594 2016] [:error] [pid 7688:tid 1132] [client 127.0.0.1:53160] PHP Warning:  include(Crypt/RSA.php): failed to open stream: No such file or directory in D:\\Program_Files\\Apache24\\htdocs\\OpenIDConnectClient.php on line 2
+[Sun Feb 14 10:07:20.915594 2016] [:error] [pid 7688:tid 1132] [client 127.0.0.1:53160] PHP Warning:  include(): Failed opening 'Crypt/RSA.php' for inclusion (include_path='.;C:\\php\\pear') in D:\\Program_Files\\Apache24\\htdocs\\OpenIDConnectClient.php on line 2
+[Sun Feb 14 10:07:20.915594 2016] [:error] [pid 7688:tid 1132] [client 127.0.0.1:53160] PHP Notice:  Unable to find phpseclib Crypt/RSA.php.  Ensure phpseclib is installed and in include_path in D:\\Program_Files\\Apache24\\htdocs\\OpenIDConnectClient.php on line 41
+[Sun Feb 14 10:07:21.692595 2016] [:error] [pid 7688:tid 1132] [client 127.0.0.1:53160] PHP Notice:  Warning: JWT signature verification unavailable. in D:\\Program_Files\\Apache24\\htdocs\\OpenIDConnectClient.php on line 209
+[Sun Feb 14 10:08:00.332651 2016] [:error] [pid 7688:tid 1132] [client 127.0.0.1:53165] PHP Strict Standards:  Redefining already defined constructor for class Crypt_Hash in D:\\Program_Files\\Apache24\\htdocs\\Hash.php on line 171
+[Sun Feb 14 10:08:18.632956 2016] [:error] [pid 7688:tid 1132] [client 127.0.0.1:53177] PHP Strict Standards:  Redefining already defined constructor for class Crypt_Hash in D:\\Program_Files\\Apache24\\htdocs\\Hash.php on line 171
+[Sun Feb 14 10:08:37.469096 2016] [:error] [pid 7688:tid 1132] [client 127.0.0.1:53183] PHP Strict Standards:  Redefining already defined constructor for class Crypt_Hash in D:\\Program_Files\\Apache24\\htdocs\\Hash.php on line 171, referer: http://localhost/oidct.php
+[Sun Feb 14 10:08:42.883126 2016] [:error] [pid 7688:tid 1132] [client 127.0.0.1:53192] PHP Strict Standards:  Redefining already defined constructor for class Crypt_Hash in D:\\Program_Files\\Apache24\\htdocs\\Hash.php on line 171
+[Sun Feb 14 10:09:57.033792 2016] [:error] [pid 7688:tid 1132] [client 127.0.0.1:53201] PHP Strict Standards:  Redefining already defined constructor for class Crypt_Hash in D:\\Program_Files\\Apache24\\htdocs\\Hash.php on line 171, referer: http://localhost/oidct.php
+[Sun Feb 14 10:10:00.390797 2016] [:error] [pid 7688:tid 1132] [client 127.0.0.1:53201] PHP Strict Standards:  Redefining already defined constructor for class Crypt_Hash in D:\\Program_Files\\Apache24\\htdocs\\Hash.php on line 171
+[Sun Feb 14 10:20:35.462539 2016] [mpm_winnt:notice] [pid 2172:tid 712] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Sun Feb 14 10:20:37.463654 2016] [mpm_winnt:notice] [pid 7688:tid 604] AH00364: Child: All worker threads have exited.
+[Sun Feb 14 10:20:37.554659 2016] [mpm_winnt:notice] [pid 2172:tid 712] AH00430: Parent: Child process 7688 exited successfully.
+[Tue Mar 08 12:58:14.675649 2016] [mpm_winnt:notice] [pid 2108:tid 712] AH00455: Apache/2.4.18 (Win64) PHP/5.6.17 configured -- resuming normal operations
+[Tue Mar 08 12:58:14.691249 2016] [mpm_winnt:notice] [pid 2108:tid 712] AH00456: Apache Lounge VC14 Server built: Dec  9 2015 11:13:29
+[Tue Mar 08 12:58:14.691249 2016] [core:notice] [pid 2108:tid 712] AH00094: Command line: 'D:\\Program_Files\\Apache24\\bin\\httpd.exe -d D:/Program_Files/Apache24'
+[Tue Mar 08 12:58:14.691249 2016] [mpm_winnt:notice] [pid 2108:tid 712] AH00418: Parent: Created child process 3232
+[Tue Mar 08 12:58:15.440050 2016] [mpm_winnt:notice] [pid 3232:tid 604] AH00354: Child: Starting 64 worker threads.
+[Wed Mar 09 03:34:20.614625 2016] [mpm_winnt:notice] [pid 2108:tid 712] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Wed Mar 09 03:34:22.642629 2016] [mpm_winnt:notice] [pid 3232:tid 604] AH00364: Child: All worker threads have exited.
+[Wed Mar 09 03:34:22.705029 2016] [mpm_winnt:notice] [pid 2108:tid 712] AH00430: Parent: Child process 3232 exited successfully.
+[Wed Mar 09 03:35:34.428862 2016] [mpm_winnt:notice] [pid 1872:tid 716] AH00455: Apache/2.4.18 (Win64) PHP/5.6.17 configured -- resuming normal operations
+[Wed Mar 09 03:35:34.428862 2016] [mpm_winnt:notice] [pid 1872:tid 716] AH00456: Apache Lounge VC14 Server built: Dec  9 2015 11:13:29
+[Wed Mar 09 03:35:34.428862 2016] [core:notice] [pid 1872:tid 716] AH00094: Command line: 'D:\\Program_Files\\Apache24\\bin\\httpd.exe -d D:/Program_Files/Apache24'
+[Wed Mar 09 03:35:34.444462 2016] [mpm_winnt:notice] [pid 1872:tid 716] AH00418: Parent: Created child process 2300
+[Wed Mar 09 03:35:34.959263 2016] [mpm_winnt:notice] [pid 2300:tid 616] AH00354: Child: Starting 64 worker threads.
+[Sat Mar 12 19:11:21.762166 2016] [mpm_winnt:notice] [pid 1872:tid 716] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Sat Mar 12 19:11:23.790170 2016] [mpm_winnt:notice] [pid 2300:tid 616] AH00364: Child: All worker threads have exited.
+[Sat Mar 12 19:11:23.852570 2016] [mpm_winnt:notice] [pid 1872:tid 716] AH00430: Parent: Child process 2300 exited successfully.
+[Sat Mar 12 19:12:26.016057 2016] [mpm_winnt:notice] [pid 2152:tid 712] AH00455: Apache/2.4.18 (Win64) PHP/5.6.17 configured -- resuming normal operations
+[Sat Mar 12 19:12:26.026057 2016] [mpm_winnt:notice] [pid 2152:tid 712] AH00456: Apache Lounge VC14 Server built: Dec  9 2015 11:13:29
+[Sat Mar 12 19:12:26.026057 2016] [core:notice] [pid 2152:tid 712] AH00094: Command line: 'D:\\Program_Files\\Apache24\\bin\\httpd.exe -d D:/Program_Files/Apache24'
+[Sat Mar 12 19:12:26.046057 2016] [mpm_winnt:notice] [pid 2152:tid 712] AH00418: Parent: Created child process 3700
+[Sat Mar 12 19:12:28.183740 2016] [mpm_winnt:notice] [pid 3700:tid 604] AH00354: Child: Starting 64 worker threads.
+[Sat Mar 12 20:19:32.623496 2016] [mpm_winnt:notice] [pid 2152:tid 712] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Sat Mar 12 20:19:34.651500 2016] [mpm_winnt:notice] [pid 3700:tid 604] AH00364: Child: All worker threads have exited.
+[Sat Mar 12 20:19:34.698300 2016] [mpm_winnt:notice] [pid 2152:tid 712] AH00430: Parent: Child process 3700 exited successfully.
+[Sat Mar 12 20:20:31.448042 2016] [mpm_winnt:notice] [pid 1884:tid 716] AH00455: Apache/2.4.18 (Win64) PHP/5.6.17 configured -- resuming normal operations
+[Sat Mar 12 20:20:31.448042 2016] [mpm_winnt:notice] [pid 1884:tid 716] AH00456: Apache Lounge VC14 Server built: Dec  9 2015 11:13:29
+[Sat Mar 12 20:20:31.448042 2016] [core:notice] [pid 1884:tid 716] AH00094: Command line: 'D:\\Program_Files\\Apache24\\bin\\httpd.exe -d D:/Program_Files/Apache24'
+[Sat Mar 12 20:20:31.448042 2016] [mpm_winnt:notice] [pid 1884:tid 716] AH00418: Parent: Created child process 2264
+[Sat Mar 12 20:20:31.962842 2016] [mpm_winnt:notice] [pid 2264:tid 616] AH00354: Child: Starting 64 worker threads.
+[Tue Mar 15 07:01:31.627698 2016] [mpm_winnt:notice] [pid 1884:tid 716] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Tue Mar 15 07:01:33.655702 2016] [mpm_winnt:notice] [pid 2264:tid 616] AH00364: Child: All worker threads have exited.
+[Tue Mar 15 07:01:33.718102 2016] [mpm_winnt:notice] [pid 1884:tid 716] AH00430: Parent: Child process 2264 exited successfully.
+[Tue Mar 15 07:02:45.288465 2016] [mpm_winnt:notice] [pid 2100:tid 712] AH00455: Apache/2.4.18 (Win64) PHP/5.6.17 configured -- resuming normal operations
+[Tue Mar 15 07:02:45.298465 2016] [mpm_winnt:notice] [pid 2100:tid 712] AH00456: Apache Lounge VC14 Server built: Dec  9 2015 11:13:29
+[Tue Mar 15 07:02:45.298465 2016] [core:notice] [pid 2100:tid 712] AH00094: Command line: 'D:\\Program_Files\\Apache24\\bin\\httpd.exe -d D:/Program_Files/Apache24'
+[Tue Mar 15 07:02:45.298465 2016] [mpm_winnt:notice] [pid 2100:tid 712] AH00418: Parent: Created child process 3808
+[Tue Mar 15 07:02:46.058485 2016] [mpm_winnt:notice] [pid 3808:tid 604] AH00354: Child: Starting 64 worker threads.
+[Mon Mar 21 06:59:24.944046 2016] [core:warn] [pid 2116:tid 660] AH00098: pid file D:/Program_Files/Apache24/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Mon Mar 21 06:59:27.861251 2016] [mpm_winnt:notice] [pid 2116:tid 660] AH00455: Apache/2.4.18 (Win64) PHP/5.6.17 configured -- resuming normal operations
+[Mon Mar 21 06:59:27.861251 2016] [mpm_winnt:notice] [pid 2116:tid 660] AH00456: Apache Lounge VC14 Server built: Dec  9 2015 11:13:29
+[Mon Mar 21 06:59:27.861251 2016] [core:notice] [pid 2116:tid 660] AH00094: Command line: 'D:\\Program_Files\\Apache24\\bin\\httpd.exe -d D:/Program_Files/Apache24'
+[Mon Mar 21 06:59:27.876851 2016] [mpm_winnt:notice] [pid 2116:tid 660] AH00418: Parent: Created child process 3576
+[Mon Mar 21 06:59:28.391652 2016] [mpm_winnt:notice] [pid 3576:tid 604] AH00354: Child: Starting 64 worker threads.
+[Wed Mar 23 09:17:58.774806 2016] [mpm_winnt:notice] [pid 2116:tid 660] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Wed Mar 23 09:18:00.802809 2016] [mpm_winnt:notice] [pid 3576:tid 604] AH00364: Child: All worker threads have exited.
+[Wed Mar 23 09:18:00.865209 2016] [mpm_winnt:notice] [pid 2116:tid 660] AH00430: Parent: Child process 3576 exited successfully.
+[Wed Mar 23 09:19:02.536847 2016] [mpm_winnt:notice] [pid 2136:tid 712] AH00455: Apache/2.4.18 (Win64) PHP/5.6.17 configured -- resuming normal operations
+[Wed Mar 23 09:19:02.536847 2016] [mpm_winnt:notice] [pid 2136:tid 712] AH00456: Apache Lounge VC14 Server built: Dec  9 2015 11:13:29
+[Wed Mar 23 09:19:02.536847 2016] [core:notice] [pid 2136:tid 712] AH00094: Command line: 'D:\\Program_Files\\Apache24\\bin\\httpd.exe -d D:/Program_Files/Apache24'
+[Wed Mar 23 09:19:02.536847 2016] [mpm_winnt:notice] [pid 2136:tid 712] AH00418: Parent: Created child process 3508
+[Wed Mar 23 09:19:03.082848 2016] [mpm_winnt:notice] [pid 3508:tid 604] AH00354: Child: Starting 64 worker threads.
+[Sun Mar 27 13:15:46.894187 2016] [mpm_winnt:notice] [pid 2136:tid 712] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Sun Mar 27 13:15:48.922190 2016] [mpm_winnt:notice] [pid 3508:tid 604] AH00364: Child: All worker threads have exited.
+[Sun Mar 27 13:15:48.968990 2016] [mpm_winnt:notice] [pid 2136:tid 712] AH00430: Parent: Child process 3508 exited successfully.
+[Sun Mar 27 13:16:48.401241 2016] [mpm_winnt:notice] [pid 1900:tid 716] AH00455: Apache/2.4.18 (Win64) PHP/5.6.17 configured -- resuming normal operations
+[Sun Mar 27 13:16:48.416841 2016] [mpm_winnt:notice] [pid 1900:tid 716] AH00456: Apache Lounge VC14 Server built: Dec  9 2015 11:13:29
+[Sun Mar 27 13:16:48.416841 2016] [core:notice] [pid 1900:tid 716] AH00094: Command line: 'D:\\Program_Files\\Apache24\\bin\\httpd.exe -d D:/Program_Files/Apache24'
+[Sun Mar 27 13:16:48.416841 2016] [mpm_winnt:notice] [pid 1900:tid 716] AH00418: Parent: Created child process 2116
+[Sun Mar 27 13:16:48.962842 2016] [mpm_winnt:notice] [pid 2116:tid 616] AH00354: Child: Starting 64 worker threads.
+[Mon Mar 28 21:59:12.060293 2016] [mpm_winnt:notice] [pid 1900:tid 716] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Mon Mar 28 21:59:14.088296 2016] [mpm_winnt:notice] [pid 2116:tid 616] AH00364: Child: All worker threads have exited.
+[Mon Mar 28 21:59:14.135097 2016] [mpm_winnt:notice] [pid 1900:tid 716] AH00430: Parent: Child process 2116 exited successfully.
+[Mon Mar 28 22:00:13.042441 2016] [mpm_winnt:notice] [pid 1904:tid 716] AH00455: Apache/2.4.18 (Win64) PHP/5.6.17 configured -- resuming normal operations
+[Mon Mar 28 22:00:13.058041 2016] [mpm_winnt:notice] [pid 1904:tid 716] AH00456: Apache Lounge VC14 Server built: Dec  9 2015 11:13:29
+[Mon Mar 28 22:00:13.058041 2016] [core:notice] [pid 1904:tid 716] AH00094: Command line: 'D:\\Program_Files\\Apache24\\bin\\httpd.exe -d D:/Program_Files/Apache24'
+[Mon Mar 28 22:00:13.058041 2016] [mpm_winnt:notice] [pid 1904:tid 716] AH00418: Parent: Created child process 2320
+[Mon Mar 28 22:00:13.572842 2016] [mpm_winnt:notice] [pid 2320:tid 616] AH00354: Child: Starting 64 worker threads.
+[Wed Apr 06 15:36:42.828232 2016] [mpm_winnt:notice] [pid 1904:tid 716] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Wed Apr 06 15:36:44.856236 2016] [mpm_winnt:notice] [pid 2320:tid 616] AH00364: Child: All worker threads have exited.
+[Wed Apr 06 15:36:45.012236 2016] [mpm_winnt:notice] [pid 1904:tid 716] AH00430: Parent: Child process 2320 exited successfully.
+[Wed Apr 06 15:37:51.796851 2016] [mpm_winnt:notice] [pid 2136:tid 720] AH00455: Apache/2.4.18 (Win64) PHP/5.6.17 configured -- resuming normal operations
+[Wed Apr 06 15:37:51.816851 2016] [mpm_winnt:notice] [pid 2136:tid 720] AH00456: Apache Lounge VC14 Server built: Dec  9 2015 11:13:29
+[Wed Apr 06 15:37:51.816851 2016] [core:notice] [pid 2136:tid 720] AH00094: Command line: 'D:\\Program_Files\\Apache24\\bin\\httpd.exe -d D:/Program_Files/Apache24'
+[Wed Apr 06 15:37:51.816851 2016] [mpm_winnt:notice] [pid 2136:tid 720] AH00418: Parent: Created child process 3576
+[Wed Apr 06 15:37:53.015903 2016] [mpm_winnt:notice] [pid 3576:tid 604] AH00354: Child: Starting 64 worker threads.
+[Thu Apr 07 23:54:13.277688 2016] [mpm_winnt:notice] [pid 2136:tid 720] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Thu Apr 07 23:54:15.305691 2016] [mpm_winnt:notice] [pid 3576:tid 604] AH00364: Child: All worker threads have exited.
+[Thu Apr 07 23:54:15.352491 2016] [mpm_winnt:notice] [pid 2136:tid 720] AH00430: Parent: Child process 3576 exited successfully.
+[Thu Apr 07 23:55:18.459451 2016] [mpm_winnt:notice] [pid 2140:tid 712] AH00455: Apache/2.4.18 (Win64) PHP/5.6.17 configured -- resuming normal operations
+[Thu Apr 07 23:55:18.469451 2016] [mpm_winnt:notice] [pid 2140:tid 712] AH00456: Apache Lounge VC14 Server built: Dec  9 2015 11:13:29
+[Thu Apr 07 23:55:18.469451 2016] [core:notice] [pid 2140:tid 712] AH00094: Command line: 'D:\\Program_Files\\Apache24\\bin\\httpd.exe -d D:/Program_Files/Apache24'
+[Thu Apr 07 23:55:18.469451 2016] [mpm_winnt:notice] [pid 2140:tid 712] AH00418: Parent: Created child process 3672
+[Thu Apr 07 23:55:19.476491 2016] [mpm_winnt:notice] [pid 3672:tid 604] AH00354: Child: Starting 64 worker threads.
+[Wed Apr 13 03:34:32.277128 2016] [mpm_winnt:notice] [pid 2140:tid 712] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Wed Apr 13 03:34:34.305132 2016] [mpm_winnt:notice] [pid 3672:tid 604] AH00364: Child: All worker threads have exited.
+[Wed Apr 13 03:34:34.351932 2016] [mpm_winnt:notice] [pid 2140:tid 712] AH00430: Parent: Child process 3672 exited successfully.
+[Wed Apr 13 03:35:51.266469 2016] [mpm_winnt:notice] [pid 1888:tid 720] AH00455: Apache/2.4.18 (Win64) PHP/5.6.17 configured -- resuming normal operations
+[Wed Apr 13 03:35:51.282069 2016] [mpm_winnt:notice] [pid 1888:tid 720] AH00456: Apache Lounge VC14 Server built: Dec  9 2015 11:13:29
+[Wed Apr 13 03:35:51.282069 2016] [core:notice] [pid 1888:tid 720] AH00094: Command line: 'D:\\Program_Files\\Apache24\\bin\\httpd.exe -d D:/Program_Files/Apache24'
+[Wed Apr 13 03:35:51.282069 2016] [mpm_winnt:notice] [pid 1888:tid 720] AH00418: Parent: Created child process 2352
+[Wed Apr 13 03:35:51.843670 2016] [mpm_winnt:notice] [pid 2352:tid 620] AH00354: Child: Starting 64 worker threads.
+[Wed Apr 20 06:40:14.003250 2016] [core:warn] [pid 2136:tid 664] AH00098: pid file D:/Program_Files/Apache24/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Wed Apr 20 06:40:16.234053 2016] [mpm_winnt:notice] [pid 2136:tid 664] AH00455: Apache/2.4.18 (Win64) PHP/5.6.17 configured -- resuming normal operations
+[Wed Apr 20 06:40:16.234053 2016] [mpm_winnt:notice] [pid 2136:tid 664] AH00456: Apache Lounge VC14 Server built: Dec  9 2015 11:13:29
+[Wed Apr 20 06:40:16.234053 2016] [core:notice] [pid 2136:tid 664] AH00094: Command line: 'D:\\Program_Files\\Apache24\\bin\\httpd.exe -d D:/Program_Files/Apache24'
+[Wed Apr 20 06:40:16.234053 2016] [mpm_winnt:notice] [pid 2136:tid 664] AH00418: Parent: Created child process 3644
+[Wed Apr 20 06:40:16.811254 2016] [mpm_winnt:notice] [pid 3644:tid 608] AH00354: Child: Starting 64 worker threads.
+[Tue Apr 26 23:26:08.408961 2016] [mpm_winnt:notice] [pid 2136:tid 664] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Tue Apr 26 23:26:10.436965 2016] [mpm_winnt:notice] [pid 3644:tid 608] AH00364: Child: All worker threads have exited.
+[Tue Apr 26 23:26:10.483765 2016] [mpm_winnt:notice] [pid 2136:tid 664] AH00430: Parent: Child process 3644 exited successfully.
+[Wed Apr 27 10:20:53.301248 2016] [mpm_winnt:notice] [pid 1908:tid 720] AH00455: Apache/2.4.18 (Win64) PHP/5.6.17 configured -- resuming normal operations
+[Wed Apr 27 10:20:53.316848 2016] [mpm_winnt:notice] [pid 1908:tid 720] AH00456: Apache Lounge VC14 Server built: Dec  9 2015 11:13:29
+[Wed Apr 27 10:20:53.316848 2016] [core:notice] [pid 1908:tid 720] AH00094: Command line: 'D:\\Program_Files\\Apache24\\bin\\httpd.exe -d D:/Program_Files/Apache24'
+[Wed Apr 27 10:20:53.316848 2016] [mpm_winnt:notice] [pid 1908:tid 720] AH00418: Parent: Created child process 2288
+[Wed Apr 27 10:20:53.831649 2016] [mpm_winnt:notice] [pid 2288:tid 620] AH00354: Child: Starting 64 worker threads.
+[Sat Apr 30 12:44:35.762810 2016] [mpm_winnt:notice] [pid 1908:tid 720] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Sat Apr 30 12:44:37.790813 2016] [mpm_winnt:notice] [pid 2288:tid 620] AH00364: Child: All worker threads have exited.
+[Sat Apr 30 12:44:37.837613 2016] [mpm_winnt:notice] [pid 1908:tid 720] AH00430: Parent: Child process 2288 exited successfully.
+[Sat Apr 30 12:45:40.269653 2016] [mpm_winnt:notice] [pid 2268:tid 720] AH00455: Apache/2.4.18 (Win64) PHP/5.6.17 configured -- resuming normal operations
+[Sat Apr 30 12:45:40.289653 2016] [mpm_winnt:notice] [pid 2268:tid 720] AH00456: Apache Lounge VC14 Server built: Dec  9 2015 11:13:29
+[Sat Apr 30 12:45:40.289653 2016] [core:notice] [pid 2268:tid 720] AH00094: Command line: 'D:\\Program_Files\\Apache24\\bin\\httpd.exe -d D:/Program_Files/Apache24'
+[Sat Apr 30 12:45:40.289653 2016] [mpm_winnt:notice] [pid 2268:tid 720] AH00418: Parent: Created child process 3464
+[Sat Apr 30 12:45:41.123662 2016] [mpm_winnt:notice] [pid 3464:tid 620] AH00354: Child: Starting 64 worker threads.
+[Tue May 03 01:20:01.644449 2016] [core:warn] [pid 2188:tid 664] AH00098: pid file D:/Program_Files/Apache24/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Tue May 03 01:20:02.502450 2016] [mpm_winnt:notice] [pid 2188:tid 664] AH00455: Apache/2.4.18 (Win64) PHP/5.6.17 configured -- resuming normal operations
+[Tue May 03 01:20:02.502450 2016] [mpm_winnt:notice] [pid 2188:tid 664] AH00456: Apache Lounge VC14 Server built: Dec  9 2015 11:13:29
+[Tue May 03 01:20:02.502450 2016] [core:notice] [pid 2188:tid 664] AH00094: Command line: 'D:\\Program_Files\\Apache24\\bin\\httpd.exe -d D:/Program_Files/Apache24'
+[Tue May 03 01:20:02.502450 2016] [mpm_winnt:notice] [pid 2188:tid 664] AH00418: Parent: Created child process 3092
+[Tue May 03 01:20:03.126451 2016] [mpm_winnt:notice] [pid 3092:tid 608] AH00354: Child: Starting 64 worker threads.
+[Wed May 11 03:40:34.600546 2016] [mpm_winnt:notice] [pid 2188:tid 664] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Wed May 11 03:40:36.628549 2016] [mpm_winnt:notice] [pid 3092:tid 608] AH00364: Child: All worker threads have exited.
+[Wed May 11 03:40:36.690949 2016] [mpm_winnt:notice] [pid 2188:tid 664] AH00430: Parent: Child process 3092 exited successfully.
+[Wed May 11 03:41:47.051265 2016] [mpm_winnt:notice] [pid 1924:tid 720] AH00455: Apache/2.4.18 (Win64) PHP/5.6.17 configured -- resuming normal operations
+[Wed May 11 03:41:47.051265 2016] [mpm_winnt:notice] [pid 1924:tid 720] AH00456: Apache Lounge VC14 Server built: Dec  9 2015 11:13:29
+[Wed May 11 03:41:47.051265 2016] [core:notice] [pid 1924:tid 720] AH00094: Command line: 'D:\\Program_Files\\Apache24\\bin\\httpd.exe -d D:/Program_Files/Apache24'
+[Wed May 11 03:41:47.066865 2016] [mpm_winnt:notice] [pid 1924:tid 720] AH00418: Parent: Created child process 2396
+[Wed May 11 03:41:47.612866 2016] [mpm_winnt:notice] [pid 2396:tid 620] AH00354: Child: Starting 64 worker threads.
+[Fri May 13 13:06:46.238848 2016] [core:warn] [pid 2172:tid 664] AH00098: pid file D:/Program_Files/Apache24/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Fri May 13 13:06:47.081250 2016] [mpm_winnt:notice] [pid 2172:tid 664] AH00455: Apache/2.4.18 (Win64) PHP/5.6.17 configured -- resuming normal operations
+[Fri May 13 13:06:47.081250 2016] [mpm_winnt:notice] [pid 2172:tid 664] AH00456: Apache Lounge VC14 Server built: Dec  9 2015 11:13:29
+[Fri May 13 13:06:47.081250 2016] [core:notice] [pid 2172:tid 664] AH00094: Command line: 'D:\\Program_Files\\Apache24\\bin\\httpd.exe -d D:/Program_Files/Apache24'
+[Fri May 13 13:06:47.081250 2016] [mpm_winnt:notice] [pid 2172:tid 664] AH00418: Parent: Created child process 3088
+[Fri May 13 13:06:47.705251 2016] [mpm_winnt:notice] [pid 3088:tid 608] AH00354: Child: Starting 64 worker threads.
+[Thu May 19 21:40:09.830048 2016] [mpm_winnt:notice] [pid 2172:tid 664] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Thu May 19 21:40:11.858051 2016] [mpm_winnt:notice] [pid 3088:tid 608] AH00364: Child: All worker threads have exited.
+[Thu May 19 21:40:11.904851 2016] [mpm_winnt:notice] [pid 2172:tid 664] AH00430: Parent: Child process 3088 exited successfully.
+[Tue May 24 10:31:05.036210 2016] [mpm_winnt:notice] [pid 2576:tid 872] AH00455: Apache/2.4.18 (Win64) PHP/5.6.17 configured -- resuming normal operations
+[Tue May 24 10:31:05.051834 2016] [mpm_winnt:notice] [pid 2576:tid 872] AH00456: Apache Lounge VC14 Server built: Dec  9 2015 11:13:29
+[Tue May 24 10:31:05.051834 2016] [core:notice] [pid 2576:tid 872] AH00094: Command line: 'D:\\Program_Files\\Apache24\\bin\\httpd.exe -d D:/Program_Files/Apache24'
+[Tue May 24 10:31:05.051834 2016] [mpm_winnt:notice] [pid 2576:tid 872] AH00418: Parent: Created child process 4948
+[Tue May 24 10:31:07.301839 2016] [mpm_winnt:notice] [pid 4948:tid 900] AH00354: Child: Starting 64 worker threads.
+[Tue Jun 07 10:59:37.993210 2016] [core:warn] [pid 2740:tid 960] AH00098: pid file D:/Program_Files/Apache24/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Tue Jun 07 10:59:38.805711 2016] [mpm_winnt:notice] [pid 2740:tid 960] AH00455: Apache/2.4.18 (Win64) PHP/5.6.17 configured -- resuming normal operations
+[Tue Jun 07 10:59:38.805711 2016] [mpm_winnt:notice] [pid 2740:tid 960] AH00456: Apache Lounge VC14 Server built: Dec  9 2015 11:13:29
+[Tue Jun 07 10:59:38.805711 2016] [core:notice] [pid 2740:tid 960] AH00094: Command line: 'D:\\Program_Files\\Apache24\\bin\\httpd.exe -d D:/Program_Files/Apache24'
+[Tue Jun 07 10:59:39.024461 2016] [mpm_winnt:notice] [pid 2740:tid 960] AH00418: Parent: Created child process 5128
+[Tue Jun 07 10:59:41.586964 2016] [mpm_winnt:notice] [pid 5128:tid 916] AH00354: Child: Starting 64 worker threads.
+[Wed Jun 29 15:13:24.542367 2016] [core:warn] [pid 1792:tid 912] AH00098: pid file D:/Program_Files/Apache24/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Wed Jun 29 15:13:25.827086 2016] [mpm_winnt:notice] [pid 1792:tid 912] AH00455: Apache/2.4.18 (Win64) PHP/5.6.17 configured -- resuming normal operations
+[Wed Jun 29 15:13:25.827086 2016] [mpm_winnt:notice] [pid 1792:tid 912] AH00456: Apache Lounge VC14 Server built: Dec  9 2015 11:13:29
+[Wed Jun 29 15:13:25.827086 2016] [core:notice] [pid 1792:tid 912] AH00094: Command line: 'D:\\Program_Files\\Apache24\\bin\\httpd.exe -d D:/Program_Files/Apache24'
+[Wed Jun 29 15:13:25.829586 2016] [mpm_winnt:notice] [pid 1792:tid 912] AH00418: Parent: Created child process 6556
+[Wed Jun 29 15:13:27.193232 2016] [mpm_winnt:notice] [pid 6556:tid 852] AH00354: Child: Starting 64 worker threads.
+[Wed Jun 29 17:07:23.700965 2016] [mpm_winnt:notice] [pid 1792:tid 912] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Wed Jun 29 17:07:25.732223 2016] [mpm_winnt:notice] [pid 6556:tid 852] AH00364: Child: All worker threads have exited.
+[Wed Jun 29 17:07:25.810344 2016] [mpm_winnt:notice] [pid 1792:tid 912] AH00430: Parent: Child process 6556 exited successfully.
+[Fri Jul 22 18:26:12.378829 2016] [mpm_winnt:notice] [pid 2428:tid 744] AH00455: Apache/2.4.18 (Win64) PHP/5.6.17 configured -- resuming normal operations
+[Fri Jul 22 18:26:12.378829 2016] [mpm_winnt:notice] [pid 2428:tid 744] AH00456: Apache Lounge VC14 Server built: Dec  9 2015 11:13:29
+[Fri Jul 22 18:26:12.378829 2016] [core:notice] [pid 2428:tid 744] AH00094: Command line: 'D:\\Program_Files\\Apache24\\bin\\httpd.exe -d D:/Program_Files/Apache24'
+[Fri Jul 22 18:26:12.394454 2016] [mpm_winnt:notice] [pid 2428:tid 744] AH00418: Parent: Created child process 4580
+[Fri Jul 22 18:26:14.441333 2016] [mpm_winnt:notice] [pid 4580:tid 876] AH00354: Child: Starting 64 worker threads.
+[Fri Jul 22 18:27:06.583307 2016] [mpm_winnt:notice] [pid 2428:tid 744] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Fri Jul 22 18:27:08.856329 2016] [mpm_winnt:notice] [pid 4580:tid 876] AH00364: Child: All worker threads have exited.
+[Fri Jul 22 18:27:08.950076 2016] [mpm_winnt:notice] [pid 2428:tid 744] AH00430: Parent: Child process 4580 exited successfully.
+[Fri Aug 05 15:10:30.651410 2016] [mpm_winnt:notice] [pid 2564:tid 936] AH00455: Apache/2.4.18 (Win64) PHP/5.6.17 configured -- resuming normal operations
+[Fri Aug 05 15:10:30.651410 2016] [mpm_winnt:notice] [pid 2564:tid 936] AH00456: Apache Lounge VC14 Server built: Dec  9 2015 11:13:29
+[Fri Aug 05 15:10:30.651410 2016] [core:notice] [pid 2564:tid 936] AH00094: Command line: 'D:\\Program_Files\\Apache24\\bin\\httpd.exe -d D:/Program_Files/Apache24'
+[Fri Aug 05 15:10:30.667035 2016] [mpm_winnt:notice] [pid 2564:tid 936] AH00418: Parent: Created child process 4020
+[Fri Aug 05 15:10:32.854539 2016] [mpm_winnt:notice] [pid 4020:tid 860] AH00354: Child: Starting 64 worker threads.
+[Sun Aug 14 11:56:52.810969 2016] [mpm_winnt:notice] [pid 2564:tid 936] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Sun Aug 14 11:56:54.842227 2016] [mpm_winnt:notice] [pid 4020:tid 860] AH00364: Child: All worker threads have exited.
+[Sun Aug 14 11:56:54.982846 2016] [mpm_winnt:notice] [pid 2564:tid 936] AH00430: Parent: Child process 4020 exited successfully.
+[Sun Aug 14 11:58:04.959090 2016] [mpm_winnt:notice] [pid 2716:tid 752] AH00455: Apache/2.4.18 (Win64) PHP/5.6.17 configured -- resuming normal operations
+[Sun Aug 14 11:58:04.959090 2016] [mpm_winnt:notice] [pid 2716:tid 752] AH00456: Apache Lounge VC14 Server built: Dec  9 2015 11:13:29
+[Sun Aug 14 11:58:04.959090 2016] [core:notice] [pid 2716:tid 752] AH00094: Command line: 'D:\\Program_Files\\Apache24\\bin\\httpd.exe -d D:/Program_Files/Apache24'
+[Sun Aug 14 11:58:04.974715 2016] [mpm_winnt:notice] [pid 2716:tid 752] AH00418: Parent: Created child process 4104
+[Sun Aug 14 11:58:06.068467 2016] [mpm_winnt:notice] [pid 4104:tid 860] AH00354: Child: Starting 64 worker threads.
+[Sun Sep 18 09:57:23.031070 2016] [core:warn] [pid 2848:tid 904] AH00098: pid file D:/Program_Files/Apache24/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sun Sep 18 09:57:24.031072 2016] [mpm_winnt:notice] [pid 2848:tid 904] AH00455: Apache/2.4.18 (Win64) PHP/5.6.17 configured -- resuming normal operations
+[Sun Sep 18 09:57:24.031072 2016] [mpm_winnt:notice] [pid 2848:tid 904] AH00456: Apache Lounge VC14 Server built: Dec  9 2015 11:13:29
+[Sun Sep 18 09:57:24.031072 2016] [core:notice] [pid 2848:tid 904] AH00094: Command line: 'D:\\Program_Files\\Apache24\\bin\\httpd.exe -d D:/Program_Files/Apache24'
+[Sun Sep 18 09:57:24.077947 2016] [mpm_winnt:notice] [pid 2848:tid 904] AH00418: Parent: Created child process 5308
+[Sun Sep 18 09:57:26.243521 2016] [mpm_winnt:notice] [pid 5308:tid 848] AH00354: Child: Starting 64 worker threads.
+[Sun Oct 09 16:49:38.463762 2016] [core:warn] [pid 2632:tid 768] AH00098: pid file D:/Program_Files/Apache24/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sun Oct 09 16:49:39.368713 2016] [mpm_winnt:notice] [pid 2632:tid 768] AH00455: Apache/2.4.18 (Win64) PHP/5.6.17 configured -- resuming normal operations
+[Sun Oct 09 16:49:39.368713 2016] [mpm_winnt:notice] [pid 2632:tid 768] AH00456: Apache Lounge VC14 Server built: Dec  9 2015 11:13:29
+[Sun Oct 09 16:49:39.368713 2016] [core:notice] [pid 2632:tid 768] AH00094: Command line: 'D:\\Program_Files\\Apache24\\bin\\httpd.exe -d D:/Program_Files/Apache24'
+[Sun Oct 09 16:49:39.384338 2016] [mpm_winnt:notice] [pid 2632:tid 768] AH00418: Parent: Created child process 5312
+[Sun Oct 09 16:49:41.739873 2016] [mpm_winnt:notice] [pid 5312:tid 864] AH00354: Child: Starting 64 worker threads.
+[Fri Oct 14 17:20:36.653882 2016] [mpm_winnt:notice] [pid 2632:tid 768] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Fri Oct 14 17:20:38.676529 2016] [mpm_winnt:notice] [pid 5312:tid 864] AH00364: Child: All worker threads have exited.
+[Fri Oct 14 17:20:38.785905 2016] [mpm_winnt:notice] [pid 2632:tid 768] AH00430: Parent: Child process 5312 exited successfully.
+[Tue Oct 25 18:43:42.759037 2016] [mpm_winnt:notice] [pid 2656:tid 900] AH00455: Apache/2.4.18 (Win64) PHP/5.6.17 configured -- resuming normal operations
+[Tue Oct 25 18:43:42.759037 2016] [mpm_winnt:notice] [pid 2656:tid 900] AH00456: Apache Lounge VC14 Server built: Dec  9 2015 11:13:29
+[Tue Oct 25 18:43:42.759037 2016] [core:notice] [pid 2656:tid 900] AH00094: Command line: 'D:\\Program_Files\\Apache24\\bin\\httpd.exe -d D:/Program_Files/Apache24'
+[Tue Oct 25 18:43:42.774662 2016] [mpm_winnt:notice] [pid 2656:tid 900] AH00418: Parent: Created child process 4348
+[Tue Oct 25 18:43:45.711915 2016] [mpm_winnt:notice] [pid 4348:tid 792] AH00354: Child: Starting 64 worker threads.
+[Wed Dec 28 14:13:11.158342 2016] [core:warn] [pid 2800:tid 920] AH00098: pid file D:/Program_Files/Apache24/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Wed Dec 28 14:13:11.892715 2016] [mpm_winnt:notice] [pid 2800:tid 920] AH00455: Apache/2.4.18 (Win64) PHP/5.6.17 configured -- resuming normal operations
+[Wed Dec 28 14:13:11.892715 2016] [mpm_winnt:notice] [pid 2800:tid 920] AH00456: Apache Lounge VC14 Server built: Dec  9 2015 11:13:29
+[Wed Dec 28 14:13:11.892715 2016] [core:notice] [pid 2800:tid 920] AH00094: Command line: 'D:\\Program_Files\\Apache24\\bin\\httpd.exe -d D:/Program_Files/Apache24'
+[Wed Dec 28 14:13:11.908340 2016] [mpm_winnt:notice] [pid 2800:tid 920] AH00418: Parent: Created child process 5652
+[Wed Dec 28 14:13:14.011372 2016] [mpm_winnt:notice] [pid 5652:tid 840] AH00354: Child: Starting 64 worker threads.
+[Fri Dec 30 11:14:10.139784 2016] [mpm_winnt:notice] [pid 2800:tid 920] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Fri Dec 30 11:14:12.171034 2016] [mpm_winnt:notice] [pid 5652:tid 840] AH00364: Child: All worker threads have exited.
+[Fri Dec 30 11:14:12.280409 2016] [mpm_winnt:notice] [pid 2800:tid 920] AH00430: Parent: Child process 5652 exited successfully.
+[Fri Dec 30 11:15:09.722295 2016] [mpm_winnt:notice] [pid 2692:tid 784] AH00455: Apache/2.4.18 (Win64) PHP/5.6.17 configured -- resuming normal operations
+[Fri Dec 30 11:15:09.722295 2016] [mpm_winnt:notice] [pid 2692:tid 784] AH00456: Apache Lounge VC14 Server built: Dec  9 2015 11:13:29
+[Fri Dec 30 11:15:09.722295 2016] [core:notice] [pid 2692:tid 784] AH00094: Command line: 'D:\\Program_Files\\Apache24\\bin\\httpd.exe -d D:/Program_Files/Apache24'
+[Fri Dec 30 11:15:09.737920 2016] [mpm_winnt:notice] [pid 2692:tid 784] AH00418: Parent: Created child process 5104
+[Fri Dec 30 11:15:11.554484 2016] [mpm_winnt:notice] [pid 5104:tid 792] AH00354: Child: Starting 64 worker threads.
+[Tue Jan 17 19:47:24.790774 2017] [core:warn] [pid 3016:tid 880] AH00098: pid file D:/Program_Files/Apache24/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Tue Jan 17 19:47:25.775148 2017] [mpm_winnt:notice] [pid 3016:tid 880] AH00455: Apache/2.4.18 (Win64) PHP/5.6.17 configured -- resuming normal operations
+[Tue Jan 17 19:47:25.775148 2017] [mpm_winnt:notice] [pid 3016:tid 880] AH00456: Apache Lounge VC14 Server built: Dec  9 2015 11:13:29
+[Tue Jan 17 19:47:25.775148 2017] [core:notice] [pid 3016:tid 880] AH00094: Command line: 'D:\\Program_Files\\Apache24\\bin\\httpd.exe -d D:/Program_Files/Apache24'
+[Tue Jan 17 19:47:25.790773 2017] [mpm_winnt:notice] [pid 3016:tid 880] AH00418: Parent: Created child process 4460
+[Tue Jan 17 19:47:26.772253 2017] [mpm_winnt:notice] [pid 4460:tid 900] AH00354: Child: Starting 64 worker threads.
