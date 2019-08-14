@@ -1,6 +1,5 @@
 # Git
 
-
 ## References
 
 * [Git - Git Basics](https://git-scm.com/book/en/v2/Getting-Started-Git-Basics)
